@@ -1,0 +1,26 @@
+{
+  "name": "puppeteer-browserstack",
+  "version": "1.0.0",
+  "description": "This is to demonstrate execution of puppeteer on browserstack",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run percy",
+    "browserstack": "node_modules/.bin/browserstack-runner --browsers 1",
+    "single": "node example.js",
+    "moca": "mocha example.js",
+    "percy": "percy exec -- mocha example.js "
+  },
+  "author": "mudassar syed",
+  "license": "ISC",
+  "dependencies": {
+    "browserstack": "^1.6.0",
+    "browserstack-runner": "^0.9.1",
+    "bufferutil": "^4.0.1",
+    "mocha": "^5.2.0",
+    "puppeteer": "^3.0.4",
+    "utf-8-validate": "^5.0.2"
+  },
+  "devDependencies": {
+    "@percy/puppeteer": "^1.1.0"
+  }
+}

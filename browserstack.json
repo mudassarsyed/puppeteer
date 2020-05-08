@@ -1,0 +1,17 @@
+{
+    "username": "mudassarsyed2",
+    "key": "8ZezGR6GyZjP2ZqrXphh",
+    "test_framework": "qunit|jasmine|jasmine2|mocha",
+    "test_path": ["index.html"],
+    "test_server_port": "8899",
+    "browsers": [
+      {
+        "browser": "chrome",
+        "browser_version": "78",
+        "device": null,
+        "os": "Windows",
+        "os_version": "8",
+        "cli_key": 1
+      }
+    ]
+  }
